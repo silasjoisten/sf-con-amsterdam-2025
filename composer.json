@@ -7,6 +7,7 @@
         "php": "^8.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "storyblok/symfony-bundle": "^1.0",
         "doctrine/dbal": "^3.10.3",
         "symfony/asset": "^7.3.0",
         "symfony/asset-mapper": "^7.3.5",
