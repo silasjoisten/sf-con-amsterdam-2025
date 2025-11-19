@@ -26,7 +26,7 @@ final class DetailController extends AbstractController
         path: '/{slug}',
         name: 'detail',
         requirements: ['slug' => Slug::PATTERN],
-        priority: -1000000,
+        priority: 1,
     )]
     public function index(Request $request, string $slug): Response
     {
