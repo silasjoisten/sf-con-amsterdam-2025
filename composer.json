@@ -20,7 +20,8 @@
         "symfony/ux-turbo": "^2.31",
         "symfony/yaml": "^7.3.5",
         "twig/extra-bundle": "^2.12 || ^3.22.1",
-        "twig/twig": "^2.12 || ^3.22"
+        "twig/twig": "^2.12 || ^3.22",
+        "webmozart/assert": "^1.12.1"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.48.2",
