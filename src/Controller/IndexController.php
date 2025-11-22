@@ -23,7 +23,7 @@ final class IndexController extends AbstractController
     ) {
     }
 
-    #[Route(path: '/', name: 'index')]
+    #[Route(path: '/', name: 'index', priority: 2)]
     public function index(
         Request $request,
         #[MapQueryParameter] int $page = 1,
