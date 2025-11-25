@@ -39,8 +39,8 @@ final class IndexController extends AbstractController
         ));
 
         return $this->render('index.html.twig', [
-            'locale' => $request->getLocale(),
             'posts' => \array_map(static fn (array $post) => new Post($post), $response->stories),
+            'locale' => $request->getLocale(),
             'page' => $page,
             'limit' => $limit,
             'total' => $response->total->value,
